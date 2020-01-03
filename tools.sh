@@ -17,7 +17,7 @@ mv stegsolve.jar ~/tools
 echo -n "----------"
 echo -n "installing JohnTheRipper"
 echo -n "----------"
-sudo apt -y install libssl-dev 
+apt -y install libssl-dev libz3-4
 git clone https://github.com/magnumripper/JohnTheRipper ~/tools/jtr
 
 echo -e '\033[now ./configure && make jtr in /src, [ENTER] to continue:\033[0m'
