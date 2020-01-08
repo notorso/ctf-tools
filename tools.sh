@@ -1,3 +1,4 @@
+mkdir /home/$(whoami)/tools
 #snaps (they really really suck)
 echo -n "----------"
 echo -n "just only one snap, vscode"
@@ -18,7 +19,7 @@ echo -n "----------"
 echo -n "installing JohnTheRipper"
 echo -n "----------"
 apt -y install libssl-dev libz3-4
-git clone https://github.com/magnumripper/JohnTheRipper ~/tools/jtr
+git clone https://github.com/magnumripper/JohnTheRipper home/$(whoami)/tools/jtr
 
 echo -e '\033[now ./configure && make jtr in /src, [ENTER] to continue:\033[0m'
 read var_name
