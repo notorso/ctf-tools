@@ -3,6 +3,7 @@ zsh
 git 
 neovim
 htop
+dialog
 enca
 fcrackzip
 wireshark
