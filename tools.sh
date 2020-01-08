@@ -9,7 +9,7 @@ chmod +x stegsolve.jar
 mv stegsolve.jar ~/tools
 
 #johntheripper
-sudo apt -y install libssl-dev libz3-4 zlibg1
+sudo apt -y install libssl-dev libz3-4 zlib1g
 git clone https://github.com/magnumripper/JohnTheRipper ~/tools/jtr 
 dialog --title "jtr config" --msgbox "remember to .configure && make" 5 35 &&clear
 
