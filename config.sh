@@ -2,8 +2,8 @@
 
 
 # git stuff
-git config --global user.email "notorso@protonmail.com"
-git config --global user.name "notorso"
+git config --global user.email "tovaorso@protonmail.com"
+git config --global user.name "tovaorso"
 
 #zsh stuff 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
