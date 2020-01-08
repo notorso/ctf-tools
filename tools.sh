@@ -15,6 +15,7 @@ dialog --title "jtr config" --msgbox "remember to .configure && make" 5 35 &&cle
 #rockyou
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt -O ~/tools/rockyou.txt
 
-
+#open latest release ghidra
+firefox https://github.com/NationalSecurityAgency/ghidra/releases
 
 
