@@ -4,9 +4,8 @@ mkdir ~/tools
 sudo snap install vscode --classic
 
 #stegsolve
-wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
-chmod +x stegsolve.jar
-mv stegsolve.jar ~/tools
+wget http://www.caesum.com/handbook/Stegsolve.jar -O ~/tools/stegsolve.jar
+chmod +x ~/tools/stegsolve.jar
 
 #johntheripper
 sudo apt -y install libssl-dev libz3-4 zlibg1
