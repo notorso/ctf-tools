@@ -29,3 +29,6 @@ echo -n "getting rockyou.txt"
 echo -n "----------"
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt -O ~/tools/rockyou.txt
 
+
+
+
